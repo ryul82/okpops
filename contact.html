@@ -171,10 +171,9 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3165.589010164509!2d126.9899538184526!3d37.49402388532662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1582009778110!5m2!1sko!2skr" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
           <div class="spacer30"></div>
-
           <div id="sendmessage">곧 연락드리겠습니다. 감사합니다!</div>
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form action="https://script.google.com/macros/s/AKfycbyunLLSKTHCoLhEP1__hlnRkdn7LrtK3nCPh8dT/exec" method="post" role="form" class="contactForm" data-email="from_email@example.com">
             <div class="row">
               <div class="span4 form-group">
                 <input type="text" name="name" class="input-block-level" id="name" placeholder="이름" data-rule="minlen:2" data-msg="이름은 2자 이상 넣어주세요" />
@@ -193,7 +192,7 @@
                 <textarea class="input-block-level" name="message" rows="5" data-rule="required" data-msg="내용을 넣어주세요.." placeholder="문의사항"></textarea>
                 <div class="validation"></div>
                 <div style="text-align: center;">
-                  <button class="btn btn-medium btn-success" type="submit">문의하기</button>
+                  <button class="btn btn-medium btn-success" type="submit">문의하기</i>&nbsp;Send </button>
                 </div>
               </div>
             </div>
