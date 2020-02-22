@@ -12,9 +12,6 @@
       fbq('init', '130539001613728');
       fbq('track', 'PageView');
   
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=130539001613728&ev=PageView&noscript=1"
-    /></noscript>
 
     <!-- End Facebook Pixel Code -->
 
@@ -26,7 +23,4 @@
     })(window,document,'script','dataLayer','GTM-TXM5RTQ');
     <!-- End Google Tag Manager -->
     
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXM5RTQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
