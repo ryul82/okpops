@@ -2,11 +2,19 @@
 <html lang="en">
   <head>
   <script src="tagm.js"></script> 
-  <link rel="import" href="header.html">
-
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+      $(document).ready(function(){
+         $("#header").load("header.html")
+        /* id 지정을 통해서도 가능합니다. 
+         $("#header").load("header.html #navbar")
+         */       
+      });
+</script> 
 </head>
 
 <body>
+<div id="header"></div>
        <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXM5RTQ"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
