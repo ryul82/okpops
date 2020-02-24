@@ -40,11 +40,11 @@ jQuery(document).ready(function($) {
   // Create the dropdown base
   $("<select />").appendTo("nav");
 
-  // Create default option "Go to..."
+  // Create default option "선택하세요"
   $("<option />", {
     "selected": "selected",
     "value": "",
-    "text": "Go to..."
+    "text": "선택하세요"
   }).appendTo("nav select");
 
   // Populate dropdown with menu items
