@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script src="includeHTML.js"></script>
   <script src="tagm.js"></script>
   <script data-ad-client="ca-pub-1399523823550819" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -48,7 +49,6 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
-
 </head>
 
 <body>
@@ -57,13 +57,9 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  {% include "header.html" %}
-
-  {% block content %}
-    {# Template inserted here #}
-  {% endblock %}
-
-
+  <div include-html="header.html"></div>
+  <script>includeHTML();</script>
+  
   <section id="intro">
     <div class="jumbotron masthead">
 
