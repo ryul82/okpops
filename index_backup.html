@@ -57,7 +57,78 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <header>{% include 'header.html' %}</header>
+  <header>
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <!-- logo -->
+          <a class="brand logo" href="index.html">
+            <img src="assets/img/logo.png" alt="" />
+          </a>
+          <!-- end logo -->
+
+          <!-- top menu -->
+          <div>
+            <nav>
+              <ul class="nav topnav">
+                <li class="dropdown success active">
+                  <a href="index.html"><i class="icon-home icon-white"></i>홈</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html">오케이팝스는</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown primary">
+                  <a href="#"><i class="icon-star icon-white"></i> 솔루션</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="overview.html">회사소개</a></li>
+                    <li class="dropdown"><a href="#">연구개발</a>
+                      <ul class="dropdown-menu sub-menu">
+                        <li><a href="https://www.librepact.com/">컨설팅</a></li>
+                        <li><a href="https://www.adpub.co.kr/">Ad-Tech</a></li>
+                        <li><a href="https://www.facebook.com/okpopx">미디어LAB</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown danger">
+                  <a href="#"><i class="icon-leaf icon-white"></i>페이지</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="services.html">서비스</a></li>
+                    <li><a href="faq.html">F.A.Q</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown warning">
+                  <a href="#"><i class="icon-camera icon-white"></i> 포트폴리오</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown"><a href="#">포트폴리오</a>
+                      <ul class="dropdown-menu sub-menu">
+                        <li><a href="portfolio-alt1-2cols.html">진행중</a></li>
+                        <li><a href="portfolio-alt1-3cols.html">성과</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="portfolio-detail.html">디테일</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown info">
+                  <a href="#"><i class="icon-bullhorn icon-white"></i>블로그</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="tstory.html">티스토리</a></li>
+                    <li><a href="https://github.com/ryul82/ryan">GITHUB</a></li>
+                  </ul>
+                </li>
+                <li class="inverse">
+                  <a href="contact.html"><i class="icon-envelope icon-white"></i>상담문의</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- end menu -->
+        </div>
+      </div>
+    </div>
+  </header>
 
   <section id="intro">
     <div class="jumbotron masthead">
@@ -363,7 +434,64 @@
 
   <!-- Footer
  ================================================== -->
- <footer>{% include 'footer.html' %}</footer>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="span4">
+          <div class="widget">
+            <h4>About us</h4>
+            <address>
+              <strong>okpops</strong><br>
+              서울서초구 방배로 238<br>
+              사서함<br>
+              <abbr title="Phone">T:</abbr> (070) 8064-6647<br>
+              <abbr title="fax">F:</abbr> (050) 7074-4420
+            </address>
+
+            <address>
+              <strong>이메일</strong><br>
+              <a href="mailto:#">master@okpops.com</a>
+            </address>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="widget">
+            <h4>페이지</h4>
+            <ul class="nav nav-list regular">
+              <li class="nav-header">서비스</li>
+              <li><a href="#">F.A.Q</a></li>
+              <li class="nav-header">링크보기</li>
+              <li><a href="#">팀 소개</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="widget">
+            <h4>이메일 주소 등록</h4>
+            <form class="form-horizontal" action="#" method="post">
+              <fieldset>
+                <p>
+                  구독을 하시면 보다 많은 정보와 혜택을 누리실수 있습니다.
+                </p>
+
+                <div class="input-prepend input-append">
+                  <input class="span2" id="appendedPrependedInput" type="text" placeholder="Email">
+                  <button class="btn btn-inverse" type="submit">구독하기</button>
+                </div>
+              </fieldset>
+            </form>
+            <ul class="social_small">
+              <li class="facebook first"><a href="https://www.facebook.com/okpopx" title="Facebook">Facebook</a></li>
+              <li class="twitt"><a href="#" title="Twitter">Twitter</a></li>
+              <li class="googleplus"><a href="https://okpops.business.site/" title="google business">Google plus</a></li>
+              <li class="flickr"><a href="#" title="Naver">Flickr</a></li>
+              <li class="dribbble"><a href="#" title="kakao">Dribbble</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="assets/js/jquery-1.8.2.min.js"></script>
   <script src="assets/js/jquery.easing.1.3.js"></script>
