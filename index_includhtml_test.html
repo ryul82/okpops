@@ -2,14 +2,6 @@
 <html lang="en">
   <head>
     <script src="js/includeHTML.js"></script>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $("#headers").load("header.html");
-      });
-    </script>
-
     <script src="tagm.js"></script>
     <script
       data-ad-client="ca-pub-1399523823550819"
@@ -108,7 +100,9 @@
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div id="headers"></div>
+    <header>
+      <div include-html="footer.html"></div>
+    </header>
 
     <section id="intro">
       <div class="jumbotron masthead">
