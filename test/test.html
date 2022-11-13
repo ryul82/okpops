@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .button {
+      padding: 10px 40px;
+      font-size: 20px;
+      background-color: brown;
+      color: wheat;
+    }
+    #drop-content {
+      position: absolute;
+      z-index: 1;
+    }
+    #drop-content a {
+      display: block;
+      font-size: 20px;
+      background-color: #dfdfdf;
+      color: black;
+      text-decoration: none;
+      padding: 10px 36px;
+      margin: 2px 0px 0px 0px;
+    }
+  </style>
+  <body>
+    <div class="dropdown">
+      <button onclick="dp_menu()" class="button">Drop</button>
+      <div style="display: none" id="drop-content">
+        <a hreaf="#">Menu1</a>
+        <a hreaf="#">Menu2</a>
+        <a hreaf="#">Menu3</a>
+        <a hreaf="#">Menu4</a>
+        <a hreaf="#">Menu5</a>
+      </div>
+    </div>
+
+    <script>
+      function dp_menu() {
+        let click = document.getElementById("drop-content");
+        if (click.style.display === "none") {
+          click.style.display = "block";
+        } else {
+          click.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
