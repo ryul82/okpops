@@ -14,3 +14,5 @@ Allow: /
 
 User-agent: bingbot
 Crawl-delay: 30
+
+#DaumWebMasterTool:4cada300038ce11da4704c3bc52adf4d48bcb118d383913706c7bc10d0bacc9a:O0wjN/fqX/k3sDtzcR8rdg==
