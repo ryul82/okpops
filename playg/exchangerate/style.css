@@ -1,0 +1,83 @@
+:root {
+  --main-color: #FFA000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--main-color);
+}
+
+p {
+  line-height: 1.6;
+  text-align: center;
+}
+
+.money-img {
+  width: 200px;
+}
+
+.btn {
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 6px 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.currency {
+  padding: 20px 0;
+}
+
+.currency select {
+  padding: 5px 20px 5px 5px;
+  /* 우측 화살표 제거 */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-color: #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  background: url(./images/arrow_drop_down.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.currency input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
+  text-align: right;
+}
+
+select:focus,
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.swrap-rate-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  color: var(--main-color);
+}
